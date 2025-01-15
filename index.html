@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deg Terminal</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="ascii-logo">
+             ____  ____________   ________________  __  ________   _____    __ 
+            / __ \/ ____/ ____/  /_  __/ ____/ __ \/  |/  /  _/ | / /   |  / / 
+           / / / / __/ / / __     / / / __/ / /_/ / /|_/ // //  |/ / /| | / /  
+          / /_/ / /___/ /_/ /    / / / /___/ _, _/ /  / // // /|  / ___ |/ /___
+         /_____/_____/\____/    /_/ /_____/_/ |_/_/  /_/___/_/ |_/_/  |_/_____/
+                                                                               
+         - X: x.com/deg_terminal
+         - Telegram: t.me/deg_terminal
+         - CA: coming soon (refresh page)
+        </div>
+        <div id="terminal"></div>
+        <div id="input-line">
+            <span id="prompt">>></span>
+            <input type="text" id="command-input" autofocus>
+        </div>
+    </div>
+
+    <script src="js/classes/CommandProcessor.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/terminal.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
